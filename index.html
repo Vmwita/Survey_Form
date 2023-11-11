@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div>
+    <h1 id="title">ZawadiCollection Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve our services</p>
+    
+    <form id="survey-form">
+    <label id="name-label">Name<input id="name" type="text" required placeholder="Enter your name">
+    </label>
+    <label id="email-label">Email<input id="email" type="email" placeholder="Enter your email" required>
+    </label>
+    <label id="number-label">Number<input id="number" type="number" placeholder="Enter your phone number" min="0" max="10" required></label>
+     
+     <label for="best-product">Select your best ZawadiCollection item</label>
+    <select id="dropdown">
+        <option value="">(select your best item)</option>
+        <option value="1">Hoodies</option>
+        <option value="2">Sweatpant</option>
+        <option value="3">T-Shirts</option>
+    </select>
+    
+    <label id="reffer">Would you recommend anyone to shop with us?
+    <label for="definitely"><input id="definitely" type="radio" name="definitely" value="1" class="inline" /><input id="definitely" type="radio" name="definitely" value="1" class="inline" />Definitely</label>
+     <label for="maybe"><input id="maybe" type="radio" name="maybe" value="2"class="inline" /><input id="maybe" type="radio" name="maybe" value="2"class="inline" />Maybe</label>
+     <label for="not-sure"><input id="not-sure" type="radio" name="not-sure" value="3" class="inline" /><input id="not-sure" type="radio" name="not-sure" value="3" class="inline" />Not sure
+    </label>
+    <label>What would you like to see improved? (Check all that apply)</label>
+<label for="Our-Website">
+          <input id="Our-Website" type="checkbox" required name="Our-Website" value="1" class="inline" /> Our-Website
+        </label>
+        <labl></label>
+<label for="check-out">
+          <input id="check-out" type="checkbox" required name="check-out" value="2"class="inline" /> Check-Out Process
+        </label>
+          <textarea id="feedback" name="feedback" rows="3" cols="30" placeholder="Best mavazi plug..."></textarea>
+       
+      <input type="submit" id="submit"/>
+    </form>
+    </div>
+</body>
+</html>
